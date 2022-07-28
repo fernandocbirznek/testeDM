@@ -23,7 +23,7 @@ private class EventSeek implements SeekBar.OnSeekBarChangeListener {
    public void onStopTrackingTouch(SeekBar seekBar) {
       código
    } 
-};
+   };
 Nome.setOnSeekBarChangeListener(new EventSeek());
 *Se tiver construtor pode passar valores
 Outra maneira e setar a partir do nomeId:
